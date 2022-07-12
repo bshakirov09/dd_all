@@ -164,7 +164,7 @@
 
 
     <!-- jQuery -->
-    <script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('dist/js/plugins/jquery/jquery.min.js')}}"></script>
     <!-- jQuery UI 1.11.4 -->
     {{--<script src="{{asset('https://code.jquery.com/ui/1.12.1/jquery-ui.min.js')}}"></script>--}}
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -172,7 +172,7 @@
     {{--$.widget.bridge('uibutton', $.ui.button)--}}
     {{--</script>--}}
     <!-- Bootstrap 4 -->
-    <script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('dist/js/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="{{asset('https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js')}}"></script>
@@ -249,12 +249,12 @@
     {{--<script src="{{asset('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js')}}"></script>--}}
     {{--<script src="{{asset('plugins/daterangepicker/daterangepicker.js')}}"></script>--}}
     <!-- datepicker -->
-    <script src="{{asset('plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}"></script>
+    <script src="{{asset('dist/js/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}"></script>
     <!-- Bootstrap WYSIHTML5 -->
     {{--<script src="{{asset('plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js')}}"></script>--}}
     <!-- Slimscroll -->
-    <script src="{{asset('plugins/slimScroll/jquery.slimscroll.min.js')}}"></script>
-    <script src="{{asset('plugins/bootstrap-sweetalert/sweetalert.min.js')}}"></script>
+    <script src="{{asset('dist/js/plugins/slimScroll/jquery.slimscroll.min.js')}}"></script>
+    <script src="{{asset('dist/js/plugins/bootstrap-sweetalert/sweetalert.min.js')}}"></script>
     <!-- FastClick -->
     {{--<script src="{{asset('plugins/fastclick/fastclick.js')}}"></script>--}}
     @stack('scripts_lib')

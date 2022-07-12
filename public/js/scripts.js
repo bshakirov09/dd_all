@@ -48,7 +48,7 @@ $(document).ready(function () {
         });
     }
 
-    $('[data-toggle=tooltip]').tooltip();
+    //$('[data-toggle=tooltip]').tooltip();
 
     $('.main-sidebar .sidebar').slimScroll({
         position: 'right',

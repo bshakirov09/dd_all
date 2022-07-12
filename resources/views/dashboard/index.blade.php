@@ -171,7 +171,7 @@
 
 @endsection
 @push('scripts_lib')
-    <script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
+    <script src="{{asset('dist/js/plugins/chartjs2/Chart.min.js')}}"></script>
 @endpush
 @push('scripts')
     <script type="text/javascript">
