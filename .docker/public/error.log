@@ -6,3 +6,4 @@
 2022/07/13 10:22:30 [error] 32#32: *1 directory index of "/var/www/html/" is forbidden, client: 192.168.128.1, server: dd.local, request: "GET / HTTP/1.1", host: "dd.local"
 2022/07/13 10:22:36 [error] 35#35: *2 directory index of "/var/www/html/" is forbidden, client: 192.168.128.1, server: dd.local, request: "GET / HTTP/1.1", host: "dd.local"
 2022/07/13 10:22:59 [error] 34#34: *3 directory index of "/var/www/html/" is forbidden, client: 192.168.128.1, server: dd.local, request: "GET / HTTP/1.1", host: "dd.local"
+2022/07/13 11:03:45 [error] 34#34: *1 directory index of "/var/www/html/" is forbidden, client: 192.168.176.1, server: dd.local, request: "GET / HTTP/1.1", host: "dd.local"

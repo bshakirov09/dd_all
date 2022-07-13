@@ -1,7 +1,8 @@
-FROM php:8.0.2-fpm
+FROM php:7.4-fpm
 
 RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
-RUN apt-get update && apt-get upgrade -y apt-utils libpq-dev unzip libzip-dev libpng-dev libfreetype6-dev
+RUN apt-get update && echo "1"
+RUN apt-get install -y apt-utils libpq-dev unzip libzip-dev libpng-dev libfreetype6-dev
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
 COPY --from=composer/composer /usr/bin/composer /usr/bin/composer
 WORKDIR /tmp
