@@ -9,7 +9,7 @@ services:
     depends_on:
       - php
     volumes:
-      - "./public:/var/www/html/"
+      - "../:/var/www/html"
       - "./nginx/conf.d/template.conf:/etc/nginx/conf.d/template.conf"
 
   php:

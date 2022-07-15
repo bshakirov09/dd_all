@@ -1,8 +1,6 @@
 #!/bin/bash
-sleep 30
-composer update --ignore-platform-reqs
-php artisan config:clear
-php artisan config:cache
+sleep 10
+composer install --no-scripts
 php artisan migrate
 set -m
 php-fpm &
